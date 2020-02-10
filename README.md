@@ -11,13 +11,22 @@ npm i libquery
 ## Usage
 
 ```js
+// Promises
 const libquery = require("libquery");
 
 libquery.query("play.symp.fr", 19132).then((data) => {
-	console.log("Done!\nServer is in " + data.version);
+	console.log("The server is in " + data.version);
 }).catch((err) => {
 	console.log("An error occured!\n " + err.message);
 });
+
+// Async
+try{
+    let data = await libquery.query("play.symp.fr", 19132);
+    console.log("The server is in " + data.version);
+}catch(err){
+    console.log("An error occured!\n " + err.message);
+}
 ```
 
 ## Contributing
