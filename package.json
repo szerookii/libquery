@@ -1,0 +1,25 @@
+{
+  "name": "libquery",
+  "version": "1.0.0",
+  "description": "A NodeJS library for queries on different game servers",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seyz123/libquery.git"
+  },
+  "keywords": [
+    "minecraft",
+    "query",
+    "game",
+    "mcpe"
+  ],
+  "author": "Seyz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seyz123/libquery/issues"
+  },
+  "homepage": "https://github.com/Seyz123/libquery#readme"
+}
