@@ -1,6 +1,6 @@
 {
   "name": "libquery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NodeJS library for queries on different game servers",
   "main": "lib/index.js",
   "scripts": {
